@@ -1,5 +1,7 @@
-#this assumes you have a CSV file that contains data in columns
-#this is written in python
+#@author: Olatunji Ajibode (Ola)
+#This script assumes you have a CSV file that contains data in columns
+#This is written in python
+
 filename = datafile.csv
 f = open(filename, 'rb')
 col = 7 #column from which you want to extract value
