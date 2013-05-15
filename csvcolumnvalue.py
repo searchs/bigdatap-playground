@@ -1,5 +1,6 @@
 #@author: Olatunji Ajibode (Ola)
 #This Python script assumes you have a CSV file that contains data in columns
+# Updated: 15-05-2013
 
 filename = datafile.csv
 f = open(filename, 'rb')
