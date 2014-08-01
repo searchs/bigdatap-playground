@@ -19,4 +19,4 @@ with open(filename, 'rt', encoding='utf8') as fa:
             sumUp = columnValue
             i = i + 1
     print(sumUp)
-print 'End of process' 
+print('End of process') 
