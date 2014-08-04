@@ -3,7 +3,7 @@
 # Sanity test for daily summary files downloaded from S3 bucket
 # Sorts daily summary file and compares the values in the first row to known values
 
-# USAGE:  ./monthend_sanity_test.sh currentMonth_summary.csv lastMonth_summary.csv 20130228
+# USAGE:  ./monthend_sanity_test.sh currentMonth_summary.csv lastMonth_summary.csv 20150228
 
 #To use this script, place script in same directory as concatenated S3 files - daily summaries
 #Also ensure that the daily_summary csv is also present in the same directory
