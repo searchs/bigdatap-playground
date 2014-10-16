@@ -39,10 +39,10 @@ TYPES OF ANALYSES
 
 COMMON USES
 ===========
--Recommendations (e.g. Yelp)
--Ad Targeting
--Fraud Detection
--Image Processing
---Article: 10 Hadoopable problems by Jeff Hammerbacher
+- Recommendations (e.g. Yelp)
+- Ad Targeting
+- Fraud Detection
+- Image Processing
+*Article: 10 Hadoopable problems by Jeff Hammerbacher*
 
 
