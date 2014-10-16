@@ -2,8 +2,19 @@
 + Scripts for testing unstructured data using any language
 + BigData:  Volume, Variety, Velocity
 
-##Tools:
-- Hadoop, Hive, Pig, ZooKeeper, Spark
+##Tools - Flavours and Addons:
+- Hadoop
+- Hive
+- Pig
+- ZooKeeper
+- Spark
+- Whirr
+- Sqoop
+- Impala(mpp)
+- Flume
+- Oozie
+- HBase
+- HCatalog
 
 ##Monitoring Hadoop
 - Hardware Failures
@@ -37,4 +48,11 @@
 - Image Processing
 - *Article: 10 Hadoopable problems by Jeff Hammerbacher*
 
+##Hadoop Pillars
+- Storage (provided by HDFS)
+-   - Distributed (striped)
+-   - Redundant (mirrored)
+- Processing 
+-   - MapReduce
+   
 
