@@ -5,13 +5,11 @@
 ##Tools:
 - Hadoop, Hive, Pig, ZooKeeper, Spark
 
-##MONITORING HADOOP
-=====================
+##Monitoring Hadoop
 - Hardware Failures
 - Disks (I/O, failures, permissions, RAM usage, CPU usage, JVM details) - tool Cloudera Manager
 
-##HADOOP ECOSYSTEM
-================
+##Hadoop EcoSystem
 - NameNode
 - Secondary NameNode
 - JobTracker
@@ -19,14 +17,12 @@
 - TaskTracker(s)
 
 
-##WEB GUIs
-========
+##Web GUIs
 - Hue (end users' access to BigData backend)
 - Cloudera Manager(BigData admins)
 
 
-##TYPES OF ANALYSES
-==================
+##Types of Analysis
 - Recommendation Engines
 - Index Building
 - Text Mining/Pattern Recognition
@@ -34,8 +30,7 @@
 - Predictive Analysis
 - Fault/Error Detection
 
-##COMMON USES
-===========
+##Common Usecases
 - Recommendations (e.g. Yelp)
 - Ad Targeting
 - Fraud Detection
