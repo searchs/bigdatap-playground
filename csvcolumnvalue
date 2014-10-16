@@ -1,3 +1,4 @@
+```python
 #@author: Olatunji Ajibode (Ola)
 #This script assumes you have a CSV file that contains data in columns
 #This is written in python
@@ -19,3 +20,4 @@ with open(filename, 'rt', encoding='utf8') as fa:
             sumUp = columnValue
             i = i + 1
     print(sumUp) 
+```
