@@ -27,7 +27,6 @@
 - DataNode(s)
 - TaskTracker(s)
 
-
 ##Web GUIs
 - Hue (end users' access to BigData backend)
 - Cloudera Manager(BigData admins)
@@ -55,8 +54,32 @@
 - Processing 
    -- MapReduce
    
+##Setup Recommendations
+-  User Cloudera (Cloudera Manger, package installs)
+-  Use Linux (Centos 5+)
+-  Do not use RID or LVM disks
+-  Optimize BIOS settings, install NTP
+-  Validate all hardware before using in production
+
+
+##AWS EMR (Elastic Map Reduce) - sporadic bigdata needs
+-  Abstracts out cluster setup and management
+-  Redcue costs
+-  Integrates to AWS
+-  Different Architecture
+-  Datastore pull/push to (RDS, DynamoDB, S3)
+-  Derived data can be stored in RedShift (using AWS DataPipelines)
+-  Data can be pre-processed with Amazon Kinesis
+
+####EMR Usecases
+- Already AWS customer
+- Sporadic MapReduce needs
+- POC Hadoop
+- Ease of use
+
 ###Testing Ideas
 -  Test the code
 -  Test the data
+
 
 
