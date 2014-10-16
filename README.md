@@ -50,9 +50,13 @@
 
 ##Hadoop Pillars
 - Storage (provided by HDFS)
--   - Distributed (striped)
--   - Redundant (mirrored)
+   -- Distributed (striped)
+   -- Redundant (mirrored)
 - Processing 
--   - MapReduce
+   -- MapReduce
    
+###Testing Ideas
+-  Test the code
+-  Test the data
+
 
