@@ -1,19 +1,16 @@
 ##BigData Projects
-================
-
 + Scripts for testing unstructured data using any language
-
 + BigData:  Volume, Variety, Velocity
 
-######Tools:
+##Tools:
 - Hadoop, Hive, Pig, ZooKeeper, Spark
 
-####MONITORING HADOOP
+##MONITORING HADOOP
 =====================
 - Hardware Failures
 - Disks (I/O, failures, permissions, RAM usage, CPU usage, JVM details) - tool Cloudera Manager
 
-HADOOP ECOSYSTEM
+##HADOOP ECOSYSTEM
 ================
 - NameNode
 - Secondary NameNode
@@ -22,13 +19,13 @@ HADOOP ECOSYSTEM
 - TaskTracker(s)
 
 
-WEB GUIs
+##WEB GUIs
 ========
 - Hue (end users' access to BigData backend)
 - Cloudera Manager(BigData admins)
 
 
-TYPES OF ANALYSES
+##TYPES OF ANALYSES
 ==================
 - Recommendation Engines
 - Index Building
@@ -37,7 +34,7 @@ TYPES OF ANALYSES
 - Predictive Analysis
 - Fault/Error Detection
 
-COMMON USES
+##COMMON USES
 ===========
 - Recommendations (e.g. Yelp)
 - Ad Targeting
