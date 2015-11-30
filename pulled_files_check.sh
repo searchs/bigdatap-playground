@@ -59,23 +59,19 @@ while IFS='' read -r line || [[ -n $line ]]; do
  echo "$line"
 done < $1
 }
-pulled_names=()
-read_catalogue pulled_split.tsv >> pulled_names
+declare -a pulled_names
+read_catalogue pulled_split.tsv >> ${pulled_names}
 
 #check is each file contains more than the headers
 for i in "${pulled_names[@]}"
 do
 test $(sed 2q $i) -ge 1;
-echo 'SED!'
 done
 
 # Read the late bulk import
 $(cat import_state.properties > bulkCheck.tsv)
 
-
 #for v in 'cat pulled_split.tsv'; do echo v; done
-
-echo $(date)
 
 awk -F',' '{print NF; exit }' pulled_split.tsv
 
