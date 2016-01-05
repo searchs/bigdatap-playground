@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class CsvBox {
 
 //Get row and column count in parsed CSV
- public static int[] getRowsColsNo(File filename) {
+ public static int[] getRowsColsCount(File filename) {
         Scanner scanIn = null;
         int rows = 0;
         int cols = 0;
