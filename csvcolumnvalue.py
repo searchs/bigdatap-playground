@@ -1,22 +1,16 @@
 #@author: Olatunji Ajibode (Ola)
 #This Python script assumes you have a CSV file that contains data in columns
-# Updated: 15-05-2013
+import csv
 
-filename = datafile.csv
-f = open(filename, 'rb')
+f = open("datafile.csv")
+csvreader = csvreader(f)
+views = list(csvreader)
+
 col = 7 #column from which you want to extract value
-usertotal = len(f.readlines())
-f.close()
-print("Total number of users in file: " + str(usertotal))
-with open(filename, 'rt', encoding='utf8') as fa:
-    i  = 0
-    sumUp = 0
-    mycsv = csv.reader(fa)
-    mycsv = list(mycsv)
-    for row in mycsv:
-        if i< usertotal:
-            columnValue = sumUp + int(row[col])
-            sumUp = columnValue
-            i = i + 1
-    print(sumUp)
+sum_up = 0
+for row in views:
+    sum_up += int(row[7])
+
+return sum_up
+
 print('End of process') 
