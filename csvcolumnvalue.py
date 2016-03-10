@@ -2,6 +2,8 @@
 #This Python script assumes you have a CSV file that contains data in columns
 import csv
 
+#TODO: Replace with functional programming REDUCE function?
+
 f = open("datafile.csv")
 csvreader = csvreader(f)
 views = list(csvreader)
