@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # Starting ZooKeeper
 # Local Instance
 bin/zookeeper-server-start.sh config/zookeeper.properties 
