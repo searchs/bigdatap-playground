@@ -9,7 +9,7 @@
 #Also ensure that the daily_summary csv is also present in the same directory
 
 mkdir backup
-cp *.* backup
+cp *.* backup/
 
 currentMonth=$1 #daily summary for current month e.g feb 2013
 lastMonth=$2 #daily summary file for previous month e.g. jan 2013
